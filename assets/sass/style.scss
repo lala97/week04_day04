@@ -79,6 +79,7 @@
 
 #template .template{
  background-color:#32393F;
+ height: 33em;
 
  color:white;
 }
@@ -87,10 +88,12 @@
 	font-weight: 800;
 	padding-top:30px;
     padding-top:30px;
-	& h4{
-		
+	
+}
+.template h4{
+	 font-size:15px;
 	    display:inline-block;
-	}
+	    font-weight: 700;
 }
 .tempIcon{
 	width: 29px;
@@ -110,4 +113,54 @@
 }
 .padding{
 	padding-top:30px;
+}
+
+#services .services{
+	padding-top:40px;
+	background-color: gray;
+	color:black;
+}
+
+#services .column{
+background-color: white;
+color:gray;
+
+}
+.pad{
+	padding:10px;
+}
+.pad .bord{
+	margin:10px;
+	border:3px solid lightgray;
+	padding-left: 0px;
+}
+.in{
+	padding: 30px 0px;
+	border-bottom: 1px solid lightgray;
+}
+#wrong{
+	background-image: url(../../img/demo-2.png);
+}
+.wrong{
+	
+	height: 20em;
+	color:gray;
+    & h2{
+      padding-top:20px;
+      font-weight: 700;
+      color:black;
+    }
+}
+#golden{
+	.row{
+		margin-top: 100px;
+	}
+}
+footer{
+	background:#414547;
+	padding-top:20px;
+	color:white;
+	ul li {
+		list-style-type: none;
+	}
 }
