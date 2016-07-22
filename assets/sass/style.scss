@@ -1,0 +1,113 @@
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap";
+@mixin m0-p0{
+	margin:0;
+	padding:0;
+}
+#header .container-fluid{
+	border-bottom: 2px solid #e6e6e6;
+    background: #F5F5F5;
+     
+}
+
+.headText{
+	    border-left: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6;
+        float: left;
+        font-size:13px;
+        padding:8px 8px;
+        color: gray;     
+}
+.iconDiv{
+	@extend .headText;
+    padding:8px 2px;
+    & a{
+    	padding:8px 10px;
+    	color: gray;
+    }
+}
+.row{
+	@include m0-p0;
+}
+
+#menu .menu{
+	padding-top:20px;
+}
+
+#slider .row{
+	padding-top:20px;
+}
+ .box{
+ 	padding:20px;
+	
+}
+
+.inBox{
+	
+	border:3px solid #999;
+	height: 15em;
+	border-radius: 5px;
+	padding:0px 5px 0px 5px;
+}
+.inBox:hover{
+	    border-color: #31A3DD;
+}
+#slider a{
+	width: 10em;
+	height: 10em;
+	background-color:black;
+}
+.boxIcon{
+	position: absolute;
+	z-index: 1;
+	background: white;
+	padding:5px 12px;
+	margin-top:-25px;
+	margin-left: 9em;
+	line-height: 23px;
+	    color: #999;
+}
+.boxText{
+	padding-top:50px;
+	    color: #999;
+}
+.box a:hover{
+	text-decoration: none;
+	    color: #999;
+	  background: blue;
+	 }	
+
+
+#template .template{
+ background-color:#32393F;
+
+ color:white;
+}
+
+.template h3{
+	font-weight: 800;
+	padding-top:30px;
+    padding-top:30px;
+	& h4{
+		
+	    display:inline-block;
+	}
+}
+.tempIcon{
+	width: 29px;
+    height: 29px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 50%;
+    border: 1px solid #31A3DD;
+    color: #31A3DD;
+    background: transparent;
+    margin-right: 10px;
+    margin-top:4px;
+}
+
+.template .row{
+	padding-bottom:10px;
+}
+.padding{
+	padding-top:30px;
+}
